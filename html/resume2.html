@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <header class="header bg-white py-4 px-6 flex justify-between items-center">
+      <a href="#" class="font-bold text-xl">Fethiya Safi</a>
+      <button class="toggle-button block md:hidden">
+        <svg
+          class="w-6 h-6"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-blue-500">Home</a>
+        <a href="about.html" class="hover:text-blue-500">About me</a>
+        <a href="resume.html" class="hover:text-blue-500">Resume</a>
+        <a href="resume2.html" class="hover:text-blue-500">Resume2</a>
+        <a href="contact.html" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </header>
+
+    <section class="resume2 section bg-gray-100 py-8" id="resume">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold mb-4">Certificates</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+          <div class="bg-white rounded-lg shadow-md p-4">
+            <img
+              src="./photo_2023-11-25_23-49-30.jpg"
+              alt="certificate 1"
+              class="w-full mb-4"
+            />
+            <p class="text-gray-700">
+              I am proud to have obtained my first certificate in the name
+              DEVTOWN. This certification validates my expertise and knowledge
+              in PYTHON. I successfully completed the rigorous training and
+              examination process, demonstrating my commitment to professional
+              development and continuous learning.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-4">
+            <img
+              src="./photo_2023-11-25_23-49-38.jpg"
+              alt="certificate 2"
+              class="w-full mb-4"
+            />
+            <p class="text-gray-700">
+              I am delighted to highlight my second certificate in the name of
+              Microsoft Learn Student Ambassador. This certification recognizes
+              my advanced proficiency in artificial intelligence. Through
+              rigorous training and assessment, I have demonstrated
+              comprehensive knowledge and practical expertise in Python.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-gray-800 py-4 px-6 mt-8">
+      <section class="home-footer"></section>
+      <div class="container mx-auto flex items-center justify-between">
+        <div class="contact__social-links">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="text-white mr-4"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="text-white mr-4"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" class="text-white">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div>
+          <span class="footer__copy text-white"
+            >All rights reserved by Fethiya Safi</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

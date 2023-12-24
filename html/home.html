@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <header class="header bg-white py-4 px-6 flex justify-between items-center">
+      <a href="#" class="font-bol d text-xl">Fethiya Safi</a>
+      <button class="toggle-button block md:hidden">
+        <svg
+          class="w-6 h-6"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-blue-500">Home</a>
+        <a href="about.html" class="hover:text-blue-500">About me</a>
+        <a href="resume.html" class="hover:text-blue-500">Resume</a>
+        <a href="resume2.html" class="hover:text-blue-500">Resume2</a>
+        <a href="contact.html" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home-section" id="home">
+        <div class="home__container-container-grid flex">
+          <div class="home__image w-full md:w-1/2">
+            <img
+              src="./photo_2023-11-25_03-55-50.jpg"
+              alt="image"
+              class="home__img"
+            />
+            <div class="home__shadow"></div>
+            <div class="geometric-box"></div>
+          </div>
+
+          <div class="home__info w-full md:w-1/2 text-right">
+            <h1 class="home__name">Fethiya Safi</h1>
+            <p class="home__discription">
+              <b>Software Engineer</b>, Student at AAit with the knowledge I
+              got. I offer the best projects resulting in quality work.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-gray-800 py-4 px-6 mt-8">
+      <section class="home-footer"></section>
+      <div class="container mx-auto flex items-center justify-between">
+        <div class="contact__social-links">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="text-white mr-4"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="text-white mr-4"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" class="text-white">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div>
+          <span class="footer__copy text-white"
+            >All rights reserved by Fethiya Safi</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

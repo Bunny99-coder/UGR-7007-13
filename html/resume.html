@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <header class="header bg-white py-4 px-6 flex justify-between items-center">
+      <a href="#" class="font-bold text-xl">Fethiya Safi</a>
+      <button class="toggle-button block md:hidden">
+        <svg
+          class="w-6 h-6"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-blue-500">Home</a>
+        <a href="about.html" class="hover:text-blue-500">About me</a>
+        <a href="resume.html" class="hover:text-blue-500">Resume</a>
+        <a href="resume2.html" class="hover:text-blue-500">Resume2</a>
+        <a href="contact.html" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <style>
+        .resume__project {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+        }
+
+        .resume__project-description {
+          margin-right: 20px;
+        }
+      </style>
+
+      <section class="Resume section" id="Resume">
+        <div class="resume__container container grid">
+          <h2 class="resume__name">Fethiya Safi</h2>
+
+          <div class="resume__info">
+            <div class="resume__image">
+              <img
+                src="photo_2023-08-25_18-35-00.jpg"
+                alt="image"
+                class="resume__img"
+              />
+            </div>
+            <div class="resume__description">
+              <p>
+                Confident young student with a passion for learning and
+                development. I would call myself an infinite student, one who is
+                dedicated to mastering their craft through relentless
+                dedication.
+              </p>
+            </div>
+          </div>
+
+          <article class="resume-article">
+            <div class="area-of-experience-description">
+              <h3 class="area-of-experience-header">Work Experience</h3>
+              <ul class="resume__area">
+                <li>Object-oriented programming</li>
+                <li>Python and Java programming</li>
+                <li>Web design</li>
+              </ul>
+            </div>
+
+            <div class="resume__project flex justify-end items-center">
+              <div>
+                <p class="resume__project-description text-right">
+                  I successfully completed a challenging project titled "XO game
+                  and Dice Rolling Simulator," which allowed me to apply my
+                  skills and knowledge in a practical setting. Throughout the
+                  project, I demonstrated strong problem-solving abilities,
+                  effective collaboration with team members, and excellent time
+                  management skills to ensure timely project completion.
+                </p>
+                <div class="project-image">
+                  <img
+                    class="resume-project-1"
+                    src="project 1.jpg"
+                    alt="My first project"
+                    width="400px"
+                    class="resume-project"
+                  />
+                  <img
+                    class="resume-project-2"
+                    src="project 2.jpg"
+                    alt="My second project"
+                    width="400px"
+                    class="resume-project"
+                  />
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

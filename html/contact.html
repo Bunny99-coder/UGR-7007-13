@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header bg-white py-4 px-6 flex justify-between items-center">
+      <a href="#" class="font-bold text-xl">Fethiya Safi</a>
+      <button class="toggle-button block md:hidden">
+        <svg
+          class="w-6 h-6"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-blue-500">Home</a>
+        <a href="about.html" class="hover:text-blue-500">About me</a>
+        <a href="resume.html" class="hover:text-blue-500">Resume</a>
+        <a href="resume2.html" class="hover:text-blue-500">Resume2</a>
+        <a href="contact.html" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </header>
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+          rel="stylesheet"
+        />
+        <title>Document</title>
+        <link rel="stylesheet" href="output.css">
+
+      </head>
+
+     
+
+        <main class="container mx-auto px-4">
+          <section class="contact bg-gray-100 py-8" id="contact">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="text-center">
+                <h2 class="text-2xl font-bold mb-4">Contact me</h2>
+                <p class="mb-6">
+                  Don't hesitate to reach out with the contact information
+                  below, or send a message using the form.
+                </p>
+              </div>
+
+              <div class="bg-white rounded-lg shadow-md p-4">
+                <form action="" class="contact__form" id="contact-form">
+                  <div class="grid grid-cols-2 gap-4">
+                    <div>
+                      <input
+                        type="text"
+                        name="user_name"
+                        id="name"
+                        required
+                        placeholder="First name"
+                        class="border border-gray-300 rounded-md p-2 w-full"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="email"
+                        name="user_email"
+                        id="email"
+                        required
+                        placeholder="Email Address"
+                        class="border border-gray-300 rounded-md p-2 w-full"
+                      />
+                    </div>
+                  </div>
+                  <textarea
+                    name="user_message"
+                    id="message"
+                    required
+                    placeholder="Message"
+                    class="border border-gray-300 rounded-md p-2 w-full"
+                  ></textarea>
+                  <button
+                    type="submit"
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md mt-4"
+                  >
+                    Send message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <footer class="footer">
+          <section class="home-footer"></section>
+          <div class="footer__container-container">
+            <div class="contact__social-links">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="contact__social-link"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="contact__social-link"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://linkedin.com/"
+                target="_blank"
+                class="contact__social-link"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div>
+              <span class="footer__copy">
+                All rights reserved by Fethiya Safi
+              </span>
+            </div>
+          </div>
+        </footer>
+        <script src="./path/to/script.js"></script>
+      </body>
+    </html>
+    <script src="./script.js"></script>
+  </body>
+</html>
